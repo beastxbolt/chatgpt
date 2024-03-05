@@ -1,7 +1,7 @@
 # ChatGPT Integration with Python OpenAI Library
 
 ## Overview
-This Python script allows you to integrate the OpenAI GPT-3.5 model into your application for conversational AI purposes.
+This Python script is an example of how you can integrate the OpenAI GPT-3.5 model into your application for conversational AI purposes.
 
 ## Prerequisites
 - Python 3.x installed on your system.
