@@ -1,7 +1,7 @@
 import openai
 from openai.error import RateLimitError
 
-openai.api_key = "openai api key"
+openai.api_key = "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"
 model_engine = "gpt-3.5-turbo"
 
 logo = """
@@ -27,7 +27,7 @@ def generate_response():
     response_str = ""
     for chunk in response:
         try:
-            content = chunk["choices"][0]["delta"]["content"]
+            content = chunk["choices"][0]["delta"]["content"] # type: ignore
             for char in content:
                 response_str += char
                 print(char, end="", flush=True)
